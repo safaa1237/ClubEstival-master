@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="mainStackPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainViewController">
+   <children>
+      <AnchorPane prefHeight="760.0" prefWidth="1200.0">
+         <children>
+            <JFXToolbar fx:id="toolbar" prefHeight="70.0" prefWidth="1200.0" styleClass="toolbar">
+               <left>
+                  <JFXHamburger fx:id="hamburger" prefHeight="74.0" prefWidth="79.0" BorderPane.alignment="CENTER" />
+               </left>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <TextField layoutX="921.0" layoutY="18.0" />
+                     </children>
+                  </AnchorPane>
+               </center>
+            </JFXToolbar>
+            <AnchorPane fx:id="contentPane" layoutY="56.0" prefHeight="702.0" prefWidth="1200.0">
+               <children>
+                  <ScrollPane hbarPolicy="NEVER" layoutY="16.0" prefHeight="706.0" prefWidth="1202.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" pickOnBounds="false" prefHeight="1389.0" prefWidth="1200.0">
+                           <children>
+                              <Label layoutX="244.0" layoutY="70.0" text="Nos formules d'hebergement">
+                                 <font>
+                                    <Font size="56.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane layoutX="854.0" layoutY="168.0" prefHeight="300.0" prefWidth="300.0">
+                                 <children>
+                                    <ImageView fitHeight="227.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/caravane.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="78.0" layoutY="246.0" text="Caravane">
+                                       <font>
+                                          <Font size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="480.0" layoutY="169.0" prefHeight="300.0" prefWidth="300.0">
+                                 <children>
+                                    <ImageView fitHeight="227.0" fitWidth="304.0" layoutX="8.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/bungalow.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="78.0" layoutY="246.0" text="Bungalows">
+                                       <font>
+                                          <Font size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="132.0" layoutY="166.0" prefHeight="300.0" prefWidth="300.0">
+                                 <children>
+                                    <ImageView fitHeight="204.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/apartement.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="38.0" layoutY="238.0" text="Appartement">
+                                       <font>
+                                          <Font size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <Label layoutX="254.0" layoutY="488.0" text="Nos formules de restauration">
+                                 <font>
+                                    <Font size="56.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane layoutX="870.0" layoutY="562.0" prefHeight="300.0" prefWidth="300.0">
+                                 <children>
+                                    <ImageView fitHeight="227.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/caravane.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="78.0" layoutY="246.0" text="Restauration Personelle">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="488.0" layoutY="563.0" prefHeight="300.0" prefWidth="300.0">
+                                 <children>
+                                    <ImageView fitHeight="227.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/caravane.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="78.0" layoutY="246.0" text="Pension Complete">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="136.0" layoutY="568.0" prefHeight="300.0" prefWidth="300.0">
+                                 <children>
+                                    <ImageView fitHeight="227.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/caravane.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="78.0" layoutY="246.0" text="petit dejeuner ou repas">
+                                       <font>
+                                          <Font size="19.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children></AnchorPane>
+            <JFXDrawer fx:id="drawer" defaultDrawerSize="150.0" layoutY="57.0" prefHeight="701.0" prefWidth="227.0">
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </JFXDrawer>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

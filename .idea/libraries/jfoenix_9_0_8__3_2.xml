@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="jfoenix-9.0.8 (3)2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jfoenix-9.0.8 (3).jar!/" />
+      <root url="jar://$PROJECT_DIR$/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fontawesomefx-8.8.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/fontawesomefx-8.9-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-commons/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-controls/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-emojione/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-emojione/src/test/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-fontawesome/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-fontawesome/src/test/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-icons525/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-materialdesignfont/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-materialicons/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-materialstackicons/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-octicons/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Jerady-fontawesomefx-6cbf97484669/fontawesomefx/fontawesomefx-weathericons/src/main/java" />
+      <root url="file://$PROJECT_DIR$/library/fontawesomefx-glyphsbrowser-master/src/main/java" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$" recursive="false" type="SOURCES" />
+  </library>
+</component>
