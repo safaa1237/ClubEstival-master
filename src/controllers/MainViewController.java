@@ -45,8 +45,8 @@ public class MainViewController implements Initializable {
     private void initDrawer(){
         try {
             //test of the user Menu
-//            VBox menu = FXMLLoader.load(getClass().getResource(Constants.SIDEMENUUSER));
-            VBox menu = FXMLLoader.load(getClass().getResource(Constants.SIDEMENUVIEW));
+            VBox menu = FXMLLoader.load(getClass().getResource(Constants.SIDEMENUUSER));
+//            VBox menu = FXMLLoader.load(getClass().getResource(Constants.SIDEMENUVIEW));
 
             //Checking from db
             //check if admin SIDEMENUADMIN
