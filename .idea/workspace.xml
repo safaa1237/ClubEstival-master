@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="88e02ca3-b9ec-4240-bf9f-a13b17da0a41" name="Default Changelist" comment="Adding user Menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ReserverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ReserverController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/reserverView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/reserverView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/accueil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/etatReservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/etatReservation.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/accueil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/etatReservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/etatReservation.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ReserverController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="288">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,12 +89,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/UserViews/reserverView.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="271" selection-start-line="7" selection-start-column="271" selection-end-line="7" selection-end-column="271" />
+            <state relative-caret-position="340">
+              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -127,7 +124,7 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="270" lean-forward="true" selection-start-line="6" selection-start-column="205" selection-end-line="6" selection-end-column="270" />
+              <caret line="6" column="270" selection-start-line="6" selection-start-column="205" selection-end-line="6" selection-end-column="270" />
             </state>
           </provider>
         </entry>
@@ -182,8 +179,8 @@
         <option value="$PROJECT_DIR$/src/controllers/SideMenuController.java" />
         <option value="$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java" />
         <option value="$PROJECT_DIR$/src/controllers/MainViewController.java" />
-        <option value="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" />
         <option value="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" />
       </list>
     </option>
   </component>
@@ -317,18 +314,18 @@
       <updated>1558196852010</updated>
       <workItem from="1558223702359" duration="5330000" />
       <workItem from="1558231707558" duration="13149000" />
-      <workItem from="1558273295653" duration="3672000" />
+      <workItem from="1558273295653" duration="4631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22151000" />
+    <option name="totallyTimeSpent" value="23110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16778524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -338,7 +335,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.20113315" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.35033557" visible="true" weight="0.23512748" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.35033557" visible="true" weight="0.23512748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -619,29 +616,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ReserverController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="270" lean-forward="true" selection-start-line="6" selection-start-column="205" selection-end-line="6" selection-end-column="270" />
+          <caret line="6" column="270" selection-start-line="6" selection-start-column="205" selection-end-line="6" selection-end-column="270" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/UserViews/reserverView.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="271" selection-start-line="7" selection-start-column="271" selection-end-line="7" selection-end-column="271" />
+        <state relative-caret-position="340">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ReserverController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

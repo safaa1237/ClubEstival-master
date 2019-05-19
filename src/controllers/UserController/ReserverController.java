@@ -28,21 +28,15 @@ public class ReserverController implements Initializable {
         private Pane heb , main;
 
         @FXML
-        private void handleButtonAction(ActionEvent e) {
-            if (e.getSource() == btn_a) {
-                main.toFront();
-            } else {
+        private void btn1(ActionEvent e) {
 
-                if (e.getSource() == btn_a)
+                main.toFront();
+            }
+    @FXML
+    private void btn2 (ActionEvent e) {
                     heb.toFront();
 
             }
-        }
-
-
-
-
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

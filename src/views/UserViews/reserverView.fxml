@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
 
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserController.ReserverController">
    <children>
@@ -12,13 +15,67 @@
             <AnchorPane layoutX="-2.0" layoutY="1.0" prefHeight="358.0" prefWidth="1203.0">
                <children>
                   <Pane fx:id="heb" layoutX="3.0" layoutY="-5.0" prefHeight="376.0" prefWidth="1210.0" style="-fx-background-color: black;" />
-                  <Pane fx:id="main" layoutX="4.0" layoutY="-5.0" prefHeight="366.0" prefWidth="1199.0" style="-fx-background-color: red;" />
+                  <Pane fx:id="main" layoutX="4.0" layoutY="-5.0" opacity="0.33" prefHeight="376.0" prefWidth="1209.0" style="-fx-background-color: #ffda8f;">
+                     <children>
+                        <AnchorPane layoutX="87.0" layoutY="64.0" prefHeight="269.0" prefWidth="306.0" style="-fx-background-color: #ffae19;">
+                           <children>
+                              <JFXButton fx:id="btn_m1" layoutX="74.0" layoutY="189.0" onAction="#btn1" text="appartement" textFill="#f8eded">
+                                 <font>
+                                    <Font size="23.0" />
+                                 </font>
+                              </JFXButton>
+                              <ImageView fitHeight="196.0" fitWidth="314.0" layoutX="4.0" layoutY="-6.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../images/accommodation-beach-bed-1531672.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="437.0" layoutY="66.0" prefHeight="269.0" prefWidth="306.0" style="-fx-background-color: #ffae19;">
+                           <children>
+                              <ImageView fitHeight="196.0" fitWidth="306.0" layoutX="3.0" layoutY="-6.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../images/347641.jpg" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton fx:id="btn_m11" layoutX="78.0" layoutY="186.0" onAction="#btn1" text="appartement" textFill="#f8eded">
+                                 <font>
+                                    <Font size="23.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="830.0" layoutY="66.0" prefHeight="269.0" prefWidth="306.0" style="-fx-background-color: #ffae19;">
+                           <children>
+                              <ImageView fitHeight="196.0" fitWidth="315.0" layoutX="3.0" layoutY="-6.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../images/camper-campsite-car-753603.jpg" />
+                                 </image>
+                              </ImageView>
+                              <JFXButton fx:id="btn_m111" layoutX="92.0" layoutY="186.0" onAction="#btn1" text="appartement" textFill="#f8eded">
+                                 <font>
+                                    <Font size="23.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </AnchorPane>
+                     </children></Pane>
                </children>
             </AnchorPane>
             <AnchorPane layoutX="8.0" layoutY="338.0" prefHeight="358.0" prefWidth="1203.0">
                <children>
-                  <JFXButton fx:id="btn_m" layoutX="709.0" layoutY="183.0" onAction="#handleButton1Action" text="ñaka" />
-                  <JFXButton fx:id="btn_a" layoutX="895.0" layoutY="183.0" onAction="#handleButtonAction" text="saam" />
+                  <AnchorPane layoutX="840.0" layoutY="56.0" prefHeight="275.0" prefWidth="314.0">
+                     <children>
+                        <JFXButton fx:id="btn_a" layoutX="107.0" layoutY="199.0" onAction="#btn2" text="notre restauration" />
+                        <ImageView fitHeight="196.0" fitWidth="325.0" layoutX="-11.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="502.0" layoutY="64.0" prefHeight="269.0" prefWidth="306.0">
+                     <children>
+                        <JFXButton fx:id="btn_m" layoutX="107.0" layoutY="192.0" onAction="#btn1" text="nos hebergemment" />
+                        <ImageView fitHeight="196.0" fitWidth="325.0" layoutX="-7.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </AnchorPane>
                </children>
             </AnchorPane>
          </children>

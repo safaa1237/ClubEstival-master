@@ -17,8 +17,8 @@
             </AnchorPane>
             <AnchorPane layoutX="8.0" layoutY="338.0" prefHeight="358.0" prefWidth="1203.0">
                <children>
-                  <JFXButton fx:id="btn_m" layoutX="709.0" layoutY="183.0" onAction="#handleButtonAction" text="ñaka" />
-                  <JFXButton fx:id="btn_a" layoutX="895.0" layoutY="183.0" onAction="#handleButtonAction" text="saam" />
+                  <JFXButton fx:id="btn_m" layoutX="630.0" layoutY="168.0" onAction="#btn1" text="ñaka" />
+                  <JFXButton fx:id="btn_a" layoutX="895.0" layoutY="183.0" onAction="#btn2" text="saam" />
                </children>
             </AnchorPane>
          </children>
