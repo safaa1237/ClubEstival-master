@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
 <?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EtatReservationController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="1113.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EtatReservationController">
    <children>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="756.0" prefWidth="1130.0">
          <children>
-            <ScrollPane prefHeight="700.0" prefWidth="1200.0">
-              <content>
-                <AnchorPane fx:id="infoEtatRervation" minHeight="0.0" minWidth="0.0" prefHeight="422.0" prefWidth="754.0" />
-              </content>
+
+            <ImageView fitHeight="38.0" fitWidth="138.0" layoutX="126.0" layoutY="80.0">
+               <image>
+                  <Image url="@../images/admin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="112.0" fitWidth="923.0" layoutX="138.0" layoutY="15.0">
+               <image>
+                  <Image url="@../images/reservation.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="818.0" layoutY="23.0" opacity="0.57" prefHeight="112.0" prefWidth="192.0" style="-fx-background-color: #000000;" />
+            <ScrollPane layoutX="130.0" layoutY="170.0" prefHeight="502.0" prefWidth="912.0">
+               <content>
+                  <VBox fx:id="infoEtatRervation" prefHeight="488.0" prefWidth="894.0" />
+               </content>
             </ScrollPane>
+            <ImageView fitHeight="71.0" fitWidth="78.0" layoutX="866.0" layoutY="27.0">
+               <image>
+                  <Image url="@../images/reservationicon.png" />
+               </image>
+            </ImageView>
+            <JFXComboBox fx:id="aPayerComboBox" layoutX="822.0" layoutY="97.0" prefHeight="25.0" prefWidth="185.0" promptText="   Choisissez un hébérgement" styleClass="combobox" stylesheets="@UserViews/style.css" unFocusColor="#c3c3c3">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="A payer" />
+                     <String fx:value="N'a pas payer" />
+                  </FXCollections>
+               </items>
+            </JFXComboBox>
          </children>
       </AnchorPane>
    </children>

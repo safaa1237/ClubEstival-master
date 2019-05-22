@@ -1,0 +1,45 @@
+
+.button
+{
+    -fx-background-color : #bd3d00;
+    -fx-text-fill : #e7e5e5;
+    -fx-background-radius: 300px;
+}
+.button:hover{
+    -fx-background-color : #e36d00;
+}
+.button:pressed
+{
+    -fx-background-color :  #373a6d;
+}
+
+.anchorpane{
+    -fx-background-color: #FEFBF3;
+    -fx-background-radius: 15px;
+
+
+}
+
+.anchorpane:hover{
+    -fx-effect: dropshadow(three-pass-box, dimgrey, 10, 0, 0, 0);
+}
+
+.qsd{
+    -fx-background-color: #4592af;
+}
+
+.combobox{
+
+    -fx-text-fill: WHITE;
+    -fx-prompt-text-fill: WHITE;
+    -jfx-focus-color: WHITE;
+    -fx-text-inner-color:white;
+
+}
+.combobox .cell {
+    -fx-text-fill: #ffffff; /* change selected text (item) color */
+    -fx-background-color: #c49018; /* change background color */
+}
+.new {
+    -fx-text-fill:#373a6d;
+}

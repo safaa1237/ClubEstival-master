@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="252.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserController.UserSideMenuController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="751.0" prefWidth="252.0" style="-fx-background-color: #373a6d;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserController.UserSideMenuController">
    <children>
       <AnchorPane prefHeight="124.0" prefWidth="252.0" />
-      <JFXButton fx:id="reserverBtn" onAction="#reserver" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Reserver" />
-      <JFXButton fx:id="consulterReservationBtn" layoutX="10.0" layoutY="134.0" onAction="#consulterReservation" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Consulter Reservation" />
-      <JFXButton fx:id="annulerReservationBtn" layoutX="10.0" layoutY="204.0" onAction="#annulerReservation" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Annuler reservation" />
-      <JFXButton fx:id="modifierReservationBtn" layoutX="10.0" layoutY="275.0" onAction="#modifierReservation" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Modifier reservation" />
-      <JFXButton fx:id="logoutBtn" layoutX="10.0" layoutY="275.0" onAction="#logOut" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Log out" />
-      <JFXButton fx:id="exitBtn" layoutX="10.0" layoutY="345.0" onAction="#exit" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Exit" />
+      <JFXButton fx:id="annulerReservationBtn" contentDisplay="RIGHT" graphicTextGap="110.0" layoutX="10.0" layoutY="204.0" onAction="#annulerReservation" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Mes Reservation" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/profile.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton fx:id="reserverBtn" contentDisplay="RIGHT" graphicTextGap="148.0" onAction="#reserver" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Réserver" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/etatreserver.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton fx:id="consulterReservationBtn" contentDisplay="RIGHT" graphicTextGap="150.0" layoutX="10.0" layoutY="134.0" onAction="#consulterReservation" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="modifier" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/lister.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton fx:id="modifierReservationBtn" contentDisplay="RIGHT" graphicTextGap="160.0" layoutX="10.0" layoutY="275.0" onAction="#modifierReservation" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Offres" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/offre.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton fx:id="sgn" contentDisplay="RIGHT" graphicTextGap="153.0" layoutX="10.0" layoutY="275.0" onAction="#logOut" prefHeight="84.0" prefWidth="227.0" styleClass="side-menu-button" stylesheets="@../style.css" text="Log out" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/logout.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
    </children>
 </VBox>

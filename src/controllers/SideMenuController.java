@@ -1,6 +1,7 @@
 package controllers;
 
 import Utils.Constants;
+import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDrawer;
 import com.jfoenix.controls.JFXHamburger;
 import com.jfoenix.controls.JFXToolbar;
@@ -10,8 +11,10 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
@@ -19,7 +22,8 @@ import java.util.ResourceBundle;
 
 public class SideMenuController implements Initializable {
 
-
+    @FXML
+    private JFXButton sgn ;
     @FXML
     private void home(ActionEvent event){
         switchPane(Constants.ACCEUIL);
@@ -37,17 +41,26 @@ public class SideMenuController implements Initializable {
 
     @FXML
     private void listerClientRestauration(ActionEvent event){
+
         switchPane(Constants.LISTERCLIENTREST);
     }
+    @FXML
+    private void logOut(ActionEvent event) throws IOException {
+        StackPane pane = FXMLLoader.load(getClass().getResource("/views/accueil.fxml"));
 
-    @FXML
-    private void logOut(ActionEvent event){
-        //Add page logOut
+        Stage stage = (Stage) sgn.getScene().getWindow();
+        // do what you have to do
+        stage.close();
+
+        Scene login = new Scene(pane,1000,800);
+        Stage primaryStage = new  Stage();
+        primaryStage.setScene(login);
+
+        primaryStage.show();
+
     }
-    @FXML
-    private void exit(ActionEvent event){
-        //Add page exit
-    }
+
+
 
     //Methods that executes on clickButtons Event
 

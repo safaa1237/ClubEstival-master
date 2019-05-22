@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserController.loginController">
+
+
+    <children>
+        <AnchorPane fx:id="layersignup" prefHeight="500.0" prefWidth="632.0">
+            <children>
+                <AnchorPane fx:id="layer1" layoutX="309.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="491.0" style="-fx-background-color: white;">
+                    <children>
+                        <Label fx:id="a2" alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="92.0" prefHeight="23.0" prefWidth="196.0" text="Créer Votre Compte" textAlignment="CENTER" textFill="#373a6d">
+                            <font>
+                                <Font name="Arial" size="17.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="b2" alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="92.0" prefHeight="23.0" prefWidth="196.0" text="Connectez-Vous" textAlignment="CENTER" textFill="#373a6d">
+                            <font>
+                                <Font name="Arial" size="17.0" />
+                            </font>
+                        </Label>
+                        <JFXTextField fx:id="username" layoutX="119.0" layoutY="196.0" prefHeight="32.0" prefWidth="258.0" promptText="Username" />
+                        <JFXPasswordField fx:id="password" layoutX="119.0" layoutY="244.0" prefHeight="32.0" prefWidth="258.0" promptText="password" />
+                        <JFXTextField fx:id="TF_nom" layoutX="119.0" layoutY="195.0" prefHeight="32.0" prefWidth="118.0" promptText="Nom" />
+                        <JFXTextField fx:id="TF_prenom" layoutX="248.0" layoutY="196.0" prefHeight="32.0" prefWidth="127.0" promptText="Prenom" />
+                        <JFXTextField fx:id="TF_cin" layoutX="119.0" layoutY="244.0" prefHeight="32.0" prefWidth="258.0" promptText="CIN" />
+                        <JFXTextField fx:id="TF_email" layoutX="119.0" layoutY="293.0" prefHeight="32.0" prefWidth="258.0" promptText="Email" />
+                        <JFXTextField fx:id="TF_usernamesup" layoutX="119.0" layoutY="334.0" prefHeight="32.0" prefWidth="258.0" promptText="Username" />
+                        <JFXPasswordField fx:id="TF_passwordup" layoutX="119.0" layoutY="380.0" prefHeight="32.0" prefWidth="258.0" promptText="Password" />
+                        <JFXButton alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="182.0" layoutY="127.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 300; -fx-text-fill: white; -fx-background-color: #373a6d;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                            <graphic>
+
+                            </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="231.0" layoutY="127.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 300; -fx-text-fill: white; -fx-background-color: #373a6d;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                            <graphic>
+
+                            </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="280.0" layoutY="127.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 300; -fx-text-fill: white; -fx-background-color: #373a6d;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                            <graphic>
+
+                            </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="btnsignup" layoutX="187.0" layoutY="429.0" onMouseClicked="#btnsignup" prefHeight="32.0" prefWidth="118.0" style="-fx-background-color: #bd3d00; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN UP" />
+                        <JFXButton fx:id="btnsignin" layoutX="189.0" layoutY="309.0" onMouseClicked="#sign" prefHeight="32.0" prefWidth="118.0" style="-fx-background-color: #bd3d00; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN IN" />
+                        <Label fx:id="label" layoutX="59.0" layoutY="14.0" prefHeight="39.0" prefWidth="363.0" textFill="#bf1717">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="layer2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="309.0" StackPane.alignment="CENTER_LEFT">
+            <children>
+                <ImageView fx:id="img1" fitHeight="506.0" fitWidth="324.0" layoutX="-9.0" layoutY="-5.0">
+                    <image>
+                        <Image url="@../../images/bg.jpg" />
+                    </image>
+                </ImageView>
+                <JFXButton fx:id="signin" layoutX="87.0" layoutY="250.0" onMouseClicked="#btn" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bd3d00; -fx-border-radius: 200; -fx-border-color: white; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN IN">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="signup" layoutX="87.0" layoutY="250.0" onMouseClicked="#btn2" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #bd3d00; -fx-border-radius: 200; -fx-border-color: white; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN UP">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXButton>
+            </children>
+        </AnchorPane>
+    </children>         <StackPane.margin>
+            <Insets top="2.0" />
+         </StackPane.margin>
+</StackPane>

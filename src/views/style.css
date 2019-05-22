@@ -36,3 +36,15 @@
 .panel:hover{
 -fx-background-color:#ffcdab;
 }
+.comboboxAccueil{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: black;
+    -jfx-focus-color:  #373a6d;
+    -fx-text-inner-color: #373a6d;
+
+}
+.comboboxAccueil .cell {
+    -fx-text-fill: #ffffff; /* change selected text (item) color */
+    -fx-background-color: #c49018; /* change background color */
+}

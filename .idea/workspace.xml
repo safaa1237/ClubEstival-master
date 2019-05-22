@@ -1,23 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="88e02ca3-b9ec-4240-bf9f-a13b17da0a41" name="Default Changelist" comment="Adding user Menu">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/DatabaseUtilis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_github_typhon0_AnimateFX_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/activation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/fontbox-2.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/java-mail-1.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/pdfbox-2.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Connectivity/ConnectionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/ModelTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/MainViewControlleruser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/UserController/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/UserController/GenererFactureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/UserController/loginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ressources/facture.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/UserViews/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/mainuser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_471.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetJavafx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetJavafx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/Utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/Utils/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/Utils/DatabaseUtilis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/Utils/DatabaseUtilis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/Accueil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/Accueil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/EtatReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/EtatReservationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/ListerClientHebergController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/ListerClientHebergController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/ListerClientRestaurationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/ListerClientRestaurationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/MainViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/MainViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/SideMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/SideMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/AnnulerReservationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ConsulterReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ConsulterReservationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ModiferReservationController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ReserverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ReserverController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/UserSideMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/UserSideMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/annulerReservationView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/consulterReservationView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/modiferReservationView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/reserverView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/reserverView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/userSideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/userSideMenu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/accueil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/cropped-1920-1080-347641.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/etatReservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/etatReservation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientHeberg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientHeberg.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientRestauration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientRestauration.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/sideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/sideMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/DatabaseUtilis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/DatabaseUtilis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Accueil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Accueil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/EtatReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/EtatReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ListerClientHebergController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ListerClientHebergController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/SideMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SideMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ConsulterReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController/ConsulterReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ModiferReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ProfilController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserViews/consulterReservationView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserViews/modiferReservationView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserViews/profil.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/accueil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cropped-1920-1080-347641.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/etatReservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/etatReservation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/listerClientHeberg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/listerClientHeberg.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/listerClientRestauration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/listerClientRestauration.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/sideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/sideMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,14 +97,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Utils/DatabaseUtilis.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/UserController/NosOffreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="132" column="49" lean-forward="true" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ReserverController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285">
+              <caret line="275" column="24" lean-forward="true" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7356#7357#0" expanded="true" />
+                <element signature="e#7419#7420#0" expanded="true" />
+                <element signature="e#7487#7488#0" expanded="true" />
+                <element signature="e#7552#7553#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-305">
+              <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/Accueil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-612">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -46,8 +149,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/EtatReservationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
-              <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
+            <state relative-caret-position="-424">
+              <caret line="193" column="38" lean-forward="true" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/ListerClientHebergController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-64">
+              <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,33 +168,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils/Constants.java">
+        <entry file="file://$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="21">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controllers/MainViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/UserViews/reserverView.fxml">
+        <entry file="file://$PROJECT_DIR$/src/controllers/MainViewControlleruser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-84">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/SideMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-              <folding>
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-391">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -92,8 +214,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -103,41 +226,60 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/views/sideMenu.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/views/style.css" />
-        <option value="$PROJECT_DIR$/src/views/listerClientHeberg.fxml" />
-        <option value="$PROJECT_DIR$/src/controllers/ListerClientHebergController.java" />
-        <option value="$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java" />
-        <option value="$PROJECT_DIR$/src/views/listerClientRestauration.fxml" />
         <option value="$PROJECT_DIR$/src/views/userSideMenu.fxml" />
         <option value="$PROJECT_DIR$/src/controllers/UserSideMenuController.java" />
-        <option value="$PROJECT_DIR$/src/views/UserViews/consulterReservationView.fxml" />
-        <option value="$PROJECT_DIR$/src/controllers/UserController/ConsulterReservationController.java" />
-        <option value="$PROJECT_DIR$/src/controllers/UserController/ModiferReservationController.java" />
         <option value="$PROJECT_DIR$/src/views/UserViews/modiferReservation.fxml" />
         <option value="$PROJECT_DIR$/src/controllers/UserController/AnnulerReservationController.java" />
         <option value="$PROJECT_DIR$/src/views/UserViews/annulerReservationView.fxml" />
-        <option value="$PROJECT_DIR$/src/Utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/views/login/login.fxml" />
+        <option value="$PROJECT_DIR$/src/Modele/ModelTable.java" />
+        <option value="$PROJECT_DIR$/src/controllers/ListerClientHebergController.java" />
+        <option value="$PROJECT_DIR$/src/Connectivity/ConnectionClass.java" />
+        <option value="J:/ListRestauration/ListerClientRestaurationController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java" />
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/views/mainuser.fxml" />
         <option value="$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml" />
-        <option value="$PROJECT_DIR$/src/controllers/SideMenuController.java" />
-        <option value="$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java" />
+        <option value="$PROJECT_DIR$/src/views/sideMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/views/UserViews/consulterReservationView.fxml" />
+        <option value="$PROJECT_DIR$/src/views/UserViews/modiferReservationView.fxml" />
+        <option value="$PROJECT_DIR$/src/views/UserViews/profil.fxml" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/ProfilController.java" />
         <option value="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" />
+        <option value="$PROJECT_DIR$/src/views/UserViews/style.css" />
         <option value="$PROJECT_DIR$/src/controllers/Accueil.java" />
-        <option value="$PROJECT_DIR$/src/controllers/MainViewController.java" />
+        <option value="$PROJECT_DIR$/src/views/UserViews/consulterReservationView1.fxml" />
+        <option value="$PROJECT_DIR$/src/Utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/ModiferReservationController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/NosOffreController.java" />
+        <option value="$PROJECT_DIR$/src/views/UserViews/NosOffre.fxml" />
+        <option value="$PROJECT_DIR$/src/views/style.css" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/ModifierReservationController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/ConsulterReservationController.java" />
+        <option value="$PROJECT_DIR$/src/views/listerClientRestauration.fxml" />
+        <option value="$PROJECT_DIR$/src/views/listerClientHeberg.fxml" />
         <option value="$PROJECT_DIR$/src/views/accueil.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/Email.java" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/GenererFactureController.java" />
+        <option value="$PROJECT_DIR$/src/Utils/DatabaseUtilis.java" />
+        <option value="$PROJECT_DIR$/src/controllers/login/loginController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/UserController/loginController.java" />
         <option value="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" />
+        <option value="$PROJECT_DIR$/src/views/UserViews/ConsulterReservation.fxml" />
+        <option value="$PROJECT_DIR$/src/controllers/MainViewController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/MainViewControlleruser.java" />
+        <option value="$PROJECT_DIR$/src/controllers/SideMenuController.java" />
         <option value="$PROJECT_DIR$/src/views/etatReservation.fxml" />
         <option value="$PROJECT_DIR$/src/controllers/EtatReservationController.java" />
-        <option value="$PROJECT_DIR$/src/Utils/DatabaseUtilis.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="833" />
-    <option name="y" value="161" />
-    <option name="width" value="1068" />
-    <option name="height" value="1040" />
+    <option name="x" value="-10" />
+    <option name="width" value="1380" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,40 +287,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ClubEstival-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubEstival-master" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClubEstival-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubEstival-master" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClubEstival-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubEstival-master" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClubEstival-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubEstival-master" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClubEstival-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubEstival-master" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ClubEstival-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubEstival-master" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="UserViews" type="462c0819:PsiDirectoryNode" />
@@ -188,29 +334,43 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controllers/UserController" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hp\Desktop\ClubEstival-master\src\images" />
+      <recent name="C:\Users\SOFI\Desktop\final\src\controllers\UserController" />
+      <recent name="C:\Users\SOFI\Desktop\final\src" />
+      <recent name="C:\Users\SOFI\Desktop\final\src\Utils" />
+      <recent name="C:\Users\SOFI\Desktop\final\library" />
+      <recent name="C:\Users\SOFI\Desktop\final\src\views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="controllers" />
+      <recent name="Connectivity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SOFI\Desktop\final\src\views\UserViews" />
+      <recent name="C:\Users\SOFI\Desktop\final\src\views" />
       <recent name="C:\Users\Hp\Desktop\ClubEstival-master\src\images" />
       <recent name="E:\ClubEstival-master-master\src\views\UserViews" />
     </key>
@@ -252,18 +412,20 @@
       <workItem from="1558273295653" duration="5006000" />
       <workItem from="1558278389517" duration="166000" />
       <workItem from="1558278852525" duration="721000" />
-      <workItem from="1558280748208" duration="22223000" />
+      <workItem from="1558280748208" duration="34796000" />
+      <workItem from="1558358776780" duration="44910000" />
+      <workItem from="1558458466800" duration="7746000" />
+      <workItem from="1558477170128" duration="15777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46595000" />
+    <option name="totallyTimeSpent" value="127601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17785235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -271,20 +433,20 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.20113315" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.35033557" visible="true" weight="0.3101983" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.60402685" weight="0.3555241" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.6496644" side_tool="true" weight="0.3385269" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719547" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" side_tool="true" weight="0.3765743" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49932885" weight="0.20113315" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.35033557" visible="true" weight="0.16005665" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.60402685" weight="0.3555241" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6496644" side_tool="true" weight="0.3385269" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.12747875" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,39 +456,8 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="9" side_tool="true" weight="0.37651005" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33221477" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.20113315" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.35033557" visible="true" weight="0.3385269" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.60402685" weight="0.16005665" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.6496644" side_tool="true" weight="0.3385269" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -336,8 +467,104 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adding user Menu" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/addImmobilier.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/views/updateImmobilier.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/views/login/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/ListRestauration/listerClientRestauration.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/ListRestauration/ListerClientRestaurationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/EtatReservation/etatReservation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/EtatReservation/EtatReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/EtatReservation/DatabaseUtilis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="309" column="1" selection-end-line="310" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/javafx-sdk-12.0.1/lib/javafx.fxml.jar!/javafx/fxml/FXMLLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="455" selection-start-line="455" selection-end-line="455" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/download/Accueil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="38" lean-forward="true" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/download/accueil.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/UserViews/consulterReservationView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/Utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/download/ModiferReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="78" column="27" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/download/ConsulterReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -345,255 +572,304 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/AddImmobilierController.java" />
-    <entry file="file://$PROJECT_DIR$/src/controllers/UpdateImmobilierController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/UserViews/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/UserViews/NosOffre.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-894">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/UserViews/reserverView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="167" column="37" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/UserViews/ModifierReservation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="346">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/listerClientRestauration.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="138" selection-start-line="15" selection-start-column="138" selection-end-line="15" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/listerClientHeberg.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/accueil.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        <state relative-caret-position="289">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/listerClientHeberg.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/ListerClientHebergController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/listerClientRestauration.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/views/sideMenu.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="188">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/house.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ModiferReservationController.java">
+    <entry file="file://$PROJECT_DIR$/src/Utils/DatabaseUtilis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/download/modiferReservationView (1).fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/download/consulterReservationView (1).fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="56" column="20" lean-forward="true" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/UserViews/ConsulterReservation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/mainuser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/download/etatReservation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="24" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/etatReservation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/download/EtatReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="183" column="32" selection-end-line="244" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ConsulterReservationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="629">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/UserViews/modiferReservationView.fxml">
+    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/AnnulerReservationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="191">
+          <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/sideMenu.fxml">
+    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/GenererFactureController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="24" column="105" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="116" />
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/main.fxml">
+    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="-733">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/UserViews/annulerReservationView.fxml">
+    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ModifierReservationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-end-line="21" />
+        <state relative-caret-position="123">
+          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml">
+    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/NosOffreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="270" selection-start-line="6" selection-start-column="205" selection-end-line="6" selection-end-column="270" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/UserViews/consulterReservationView.fxml">
+    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ReserverController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="-285">
+          <caret line="275" column="24" lean-forward="true" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7356#7357#0" expanded="true" />
+            <element signature="e#7419#7420#0" expanded="true" />
+            <element signature="e#7487#7488#0" expanded="true" />
+            <element signature="e#7552#7553#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="-305">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Accueil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="-612">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/EtatReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="193" column="38" lean-forward="true" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/ListerClientHebergController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/SideMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/MainViewControlleruser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/MainViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbo_clubestival.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/SideMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-          <folding>
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/no.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/yes.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/UserController/ReserverController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/etatReservation.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/accueil.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="245" selection-start-line="10" selection-start-column="245" selection-end-line="10" selection-end-column="245" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/EtatReservationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/UserViews/reserverView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/DatabaseUtilis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="132" column="49" lean-forward="true" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+        <state relative-caret-position="272">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,7 +916,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>12</last-edited>
+          <last-edited>11.0.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -657,6 +933,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -664,7 +941,18 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.47</last-edited>
+          <last-edited>activation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

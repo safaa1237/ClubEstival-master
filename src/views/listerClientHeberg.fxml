@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.text.Font?>
 
-
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ListerClientHebergController">
    <children>
-      <JFXButton text="Lister Client/Heberg Page">
-         <font>
-            <Font size="40.0" />
-         </font>
-      </JFXButton>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="1135.0">
+         <children>
+
+            <ImageView fitHeight="38.0" fitWidth="138.0" layoutX="20.0" layoutY="7.0">
+               <image>
+                  <Image url="@../images/admin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="89.0" fitWidth="1127.0" layoutX="-4.0" layoutY="38.0">
+               <image>
+                  <Image url="@../images/hebergement.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="928.0" layoutY="39.0" opacity="0.57" prefHeight="89.0" prefWidth="192.0" style="-fx-background-color: #000000;">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="69.0" layoutY="4.0">
+                     <image>
+                        <Image url="@../images/hotel.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <TableView fx:id="table" layoutX="-1.0" layoutY="120.0" prefHeight="560.0" prefWidth="1130.0" stylesheets="@../table.css">
+               <columns>
+                  <TableColumn fx:id="col_nom" prefWidth="75.0" text="Nom" />
+                  <TableColumn fx:id="col_prenom" prefWidth="75.0" text="Prénom" />
+                  <TableColumn fx:id="col_cin" prefWidth="75.0" text="CIN" />
+                  <TableColumn fx:id="col_email" prefWidth="75.0" text="Email" />
+                  <TableColumn fx:id="col_login" prefWidth="75.0" text="Login" />
+                  <TableColumn fx:id="col_rest" prefWidth="149.0" text="Restauration" />
+                  <TableColumn fx:id="col_nbr" prefWidth="136.0" text="Nombre de personnes" />
+               </columns>
+            </TableView>
+            <JFXComboBox fx:id="TF_hebergement" layoutX="939.0" layoutY="89.0" prefHeight="25.0" prefWidth="183.0" promptText="   Choisissez un hébérgement" styleClass="combobox" stylesheets="@UserViews/style.css" unFocusColor="#c3c3c3">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="Appartement" />
+                     <String fx:value="Bungalow" />
+                     <String fx:value="Caravane" />
+                  </FXCollections>
+               </items>
+            </JFXComboBox>
+         </children>
+      </AnchorPane>
    </children>
 </StackPane>

@@ -7,71 +7,61 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="252.0" style="-fx-background-color: #ffa45c;" styleClass="side-menu" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SideMenuController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="252.0" style="-fx-background-color: #373a6d;" styleClass="side-menu" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SideMenuController">
    <children>
       <AnchorPane prefHeight="124.0" prefWidth="252.0" />
-      <AnchorPane prefHeight="52.0" prefWidth="252.0" styleClass="panel">
-         <children>
-            <JFXButton fx:id="btnHome" onAction="#home" prefHeight="84.0" prefWidth="227.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Home" textFill="WHITE" />
-            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="198.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../images/house.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
+      <AnchorPane prefHeight="52.0" prefWidth="252.0" styleClass="panel" />
       <AnchorPane prefHeight="46.0" prefWidth="252.0" styleClass="panel">
          <children>
-            <JFXButton fx:id="btnListerClientHeberg" layoutX="1.0" layoutY="-7.0" onAction="#listerClientHebergement" prefHeight="58.0" prefWidth="150.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Client/Hebergement" textFill="WHITE" />
-            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="198.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../images/house.png" />
-               </image>
-            </ImageView>
+            <JFXButton fx:id="btnListerClientHeberg" contentDisplay="RIGHT" graphicTextGap="54.0" layoutX="1.0" layoutY="-7.0" onAction="#listerClientHebergement" prefHeight="58.0" prefWidth="150.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Litser Client Hébérgement " textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/wlister.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="48.0" prefWidth="252.0" styleClass="panel">
          <children>
-      
-                  <JFXButton fx:id="btnEtatResarvation" layoutX="1.0" layoutY="-3.0" onAction="#etatResarvation" prefHeight="54.0" prefWidth="252.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Etat reservation" textFill="WHITE" />
-            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="198.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../images/house.png" />
-               </image>
-            </ImageView>
+
+            <JFXButton fx:id="btnEtatResarvation" contentDisplay="RIGHT" graphicTextGap="108.0" layoutX="1.0" layoutY="-3.0" onAction="#etatResarvation" prefHeight="54.0" prefWidth="252.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Etat Réservation" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/wetatreserver.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="49.0" prefWidth="260.0" styleClass="panel">
          <children>
-            <JFXButton fx:id="btnListerClientRestauration" layoutY="2.0" onAction="#listerClientRestauration" prefHeight="66.0" prefWidth="243.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Client/Restauration" textFill="WHITE" />
-            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="198.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../images/house.png" />
-               </image>
-            </ImageView>
+            <JFXButton fx:id="btnListerClientRestauration" contentDisplay="RIGHT" graphicTextGap="64.0" layoutY="2.0" onAction="#listerClientRestauration" prefHeight="66.0" prefWidth="243.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Lister Client Réstauration" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/wlister.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="48.0" prefWidth="252.0" styleClass="panel">
          <children>
-            <ImageView fx:id="maini" fitHeight="40.0" fitWidth="45.0" layoutX="198.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../images/house.png" />
-               </image>
-            </ImageView>
-            <JFXButton fx:id="btnLogOut" layoutX="1.0" layoutY="-1.0" onAction="#logOut" prefHeight="84.0" prefWidth="227.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Logout" textFill="WHITE" />
+            <JFXButton fx:id="sgn" contentDisplay="RIGHT" graphicTextGap="151.0" layoutX="1.0" layoutY="-1.0" onAction="#logOut" prefHeight="84.0" prefWidth="227.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Log Out" textFill="WHITE">
+               <graphic>
+                  <ImageView fx:id="maini" fitHeight="40.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/wlogout.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="10.0" layoutY="409.0" prefHeight="48.0" prefWidth="252.0" styleClass="panel">
-         <children>
-            <ImageView fx:id="maini1" fitHeight="40.0" fitWidth="45.0" layoutX="198.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../images/house.png" />
-               </image>
-            </ImageView>
-            <JFXButton fx:id="btnexit" layoutX="1.0" layoutY="-1.0" onAction="#exit" prefHeight="84.0" prefWidth="227.0" style="-fx-background-color: transparent;" styleClass="side-menu-button" stylesheets="@style.css" text="Exit" textFill="WHITE" />
-         </children>
-      </AnchorPane>
-      
+      <AnchorPane layoutX="10.0" layoutY="409.0" prefHeight="48.0" prefWidth="252.0" styleClass="panel" />
+
    </children>
    <effect>
       <DropShadow />
