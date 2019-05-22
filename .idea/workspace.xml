@@ -5,29 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88e02ca3-b9ec-4240-bf9f-a13b17da0a41" name="Default Changelist" comment="Adding user Menu">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_github_typhon0_AnimateFX_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/activation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fontbox-2.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/java-mail-1.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/pdfbox-2.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Connectivity/ConnectionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/ModelTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/MainViewControlleruser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/UserController/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/UserController/GenererFactureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/UserController/loginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ressources/facture.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/UserViews/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login/login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/mainuser.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_9_0_8__3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_471.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetJavafx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetJavafx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/Utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/Utils/Constants.class" afterDir="false" />
@@ -38,52 +15,19 @@
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/ListerClientRestaurationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/ListerClientRestaurationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/MainViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/MainViewController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/SideMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/SideMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/AnnulerReservationController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ConsulterReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ConsulterReservationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ModiferReservationController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ReserverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/ReserverController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/UserSideMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/controllers/UserController/UserSideMenuController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/annulerReservationView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/consulterReservationView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/modiferReservationView.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/reserverView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/reserverView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/userSideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/UserViews/userSideMenu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/accueil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/cropped-1920-1080-347641.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/etatReservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/etatReservation.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientHeberg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientHeberg.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientRestauration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/listerClientRestauration.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/sideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/sideMenu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJavafx/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJavafx/views/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/DatabaseUtilis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/DatabaseUtilis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Accueil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Accueil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/EtatReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/EtatReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/ListerClientHebergController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ListerClientHebergController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ListerClientRestaurationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MainViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/SideMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SideMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ConsulterReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController/ConsulterReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ModiferReservationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ProfilController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController/ReserverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/UserController/UserSideMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UserViews/consulterReservationView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UserViews/modiferReservationView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UserViews/profil.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserViews/reserverView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserViews/userSideMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/accueil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/accueil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/cropped-1920-1080-347641.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/etatReservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/etatReservation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/listerClientHeberg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/listerClientHeberg.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/listerClientRestauration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/listerClientRestauration.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/sideMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/sideMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -182,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/MainViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="527">
+              <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -415,12 +359,20 @@
       <workItem from="1558280748208" duration="34796000" />
       <workItem from="1558358776780" duration="44910000" />
       <workItem from="1558458466800" duration="7746000" />
-      <workItem from="1558477170128" duration="15777000" />
+      <workItem from="1558477170128" duration="16242000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding user Menu">
+      <created>1558496865951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558496865951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127601000" />
+    <option name="totallyTimeSpent" value="128066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -436,12 +388,12 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49932885" weight="0.20113315" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.35033557" visible="true" weight="0.16005665" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.35033557" weight="0.16005665" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" visible="true" weight="0.16005665" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.60402685" weight="0.3555241" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6496644" side_tool="true" weight="0.3385269" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.12747875" />
@@ -868,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/MainViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="527">
+          <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
