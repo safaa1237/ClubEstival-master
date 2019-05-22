@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="1227.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserController.ModifierReservationController">
+    <children>
+        <AnchorPane fx:id="AP_FormulaireReservation" prefHeight="594.0" prefWidth="957.0" style="-fx-background-color: f6f6f6;" StackPane.alignment="TOP_LEFT">
+            <children>
+                <ImageView fitHeight="594.0" fitWidth="1225.0" layoutY="-2.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../../images/hotelstairs.jpg" />
+                    </image>
+                </ImageView>
+                <AnchorPane layoutX="131.0" layoutY="42.0" opacity="0.39" prefHeight="467.0" prefWidth="971.0" style="-fx-background-color: black;" />
+                <Label fx:id="LB_Paye" layoutX="216.0" layoutY="56.0" prefHeight="71.0" prefWidth="763.0" text="Modifier Votre Réservation" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+                    <font>
+                        <Font name="Gabriola" size="48.0" />
+                    </font>
+                    <effect>
+                        <DropShadow color="#aaa1a1" height="10.5" radius="10.575" width="33.8" />
+                    </effect>
+                </Label>
+                <Label layoutX="303.0" layoutY="242.0" prefHeight="38.0" prefWidth="95.0" text="Date d'arrivée :" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <Label layoutX="303.0" layoutY="284.0" prefHeight="38.0" prefWidth="100.0" text="Date de départ :" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <JFXButton layoutX="832.0" layoutY="364.0" onAction="#modifier" prefHeight="52.0" prefWidth="211.0" style="-fx-background-color: #373a6d; -fx-border-radius: 300; -fx-border-color: white; -fx-background-radius: 300; -fx-text-fill: white;" text="Modifier Réservation" textAlignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="14.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton layoutX="646.0" layoutY="364.0" onAction="#annuler" prefHeight="52.0" prefWidth="173.0" style="-fx-background-color: #bd3d00; -fx-border-radius: 200; -fx-border-color: white; -fx-background-radius: 200; -fx-text-fill: white;" text="Annuler Réservation" textAlignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="14.0" />
+                    </font>
+                </JFXButton>
+                <DatePicker fx:id="DP_DateArrivee" layoutX="465.0" layoutY="247.0" prefHeight="25.0" prefWidth="188.0" style="-fx-background-color: #FEF7E0;" stylesheets="@style.css" />
+                <DatePicker fx:id="DP_DateDepart" layoutX="464.0" layoutY="290.0" prefHeight="19.0" prefWidth="188.0" style="-fx-background-color: #FEF7E0;" stylesheets="@style.css" />
+                <JFXComboBox fx:id="TF_TypeRestauration" editable="true" layoutX="304.0" layoutY="172.0" prefHeight="25.0" prefWidth="244.0" promptText="Type Restauration" styleClass="combobox" stylesheets="@style.css" unFocusColor="#c49018">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Demi Pension" />
+                            <String fx:value="Pension Complete" />
+                            <String fx:value="Restauration Personnelle" />
+                        </FXCollections>
+                    </items>
+                </JFXComboBox>
+                <JFXComboBox fx:id="TF_TypeHebergement" editable="true" layoutX="304.0" layoutY="206.0" prefHeight="25.0" prefWidth="243.0" promptText="Type Hebergement" styleClass="combobox" stylesheets="@style.css" unFocusColor="#c49018">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Caravane" />
+                            <String fx:value="Bungalow" />
+                            <String fx:value="Appartement" />
+                        </FXCollections>
+                    </items>
+                </JFXComboBox>
+                <JFXComboBox fx:id="TF_NbPersonnes" editable="true" layoutX="302.0" layoutY="133.0" prefHeight="25.0" prefWidth="158.0" promptText="Nombre Personnes" styleClass="combobox" stylesheets="@style.css" unFocusColor="#c49018">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="2" />
+                            <String fx:value="4" />
+                            <String fx:value="6" />
+                        </FXCollections>
+                    </items>
+                </JFXComboBox>
+
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
